@@ -1,10 +1,9 @@
 # *-* coding: utf-8 *-*
 # 抓取证券日报上的每日交易公告集锦
 # http://www.ccstock.cn/meiribidu/jiaoyitishi/
-# python 2.7
+# 代码版本 python 2.7 IDE：PyCharm
 import requests
 import random
-import os
 import sys
 import time
 from bs4 import BeautifulSoup
